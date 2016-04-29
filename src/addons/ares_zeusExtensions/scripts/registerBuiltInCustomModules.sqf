@@ -6,6 +6,7 @@ _scripts = [
 		"Arsenal_PasteFromClipboard",
 		"Behaviour_ArtilleryFire",
 		"Behaviour_ArtilleryFireMission",
+		"Behaviour_GroupAttack"
 		"Equipment_RemoveWeaponOptics",
 		"SaveLoad_CreateMissionSQF",
 		"Util_ChangePlayerSides",
