@@ -4,12 +4,12 @@ class CfgPatches
 	{
 		weapons[] = {};
 		requiredVersion = 0.1;
-		author[] = { "Anton Struyk" };
+		author = "Anton Struyk";
 		authorUrl = "https://github.com/astruyk/";
 		version = 1.8.0;
 		versionStr = "1.8.0";
 		versionAr[] = {1,8,0};
-		
+
 		#include "units.hpp"
 
 		requiredAddons[] =
@@ -60,7 +60,7 @@ class CfgVehicles
 		isTriggerActivated = 0;	// 1 for module waiting until all synced triggers are activated
 		isDisposable = 0;		// 1 if modules is to be disabled once it's activated (i.e., repeated trigger activation won't work)
 		// curatorInfoType = "RscDisplayAttributeModuleNuke";	// Menu displayed when the module is placed or double-clicked on by Zeus
-		
+
 		class Arguments {};
 		class ModuleDescription: ModuleDescription
 		{
@@ -72,17 +72,17 @@ class CfgVehicles
 	{
 		subCategory = "AI Behaviours";
 	};
-	
+
 	class Ares_Equipment_Module_Base : Ares_Module_Base
 	{
 		subCategory = "Equipment";
 	};
-	
+
 	class Ares_Reinforcements_Module_base : Ares_Module_Base
 	{
 		subCategory = "Reinforcements";
 	};
-	
+
 	class Ares_SaveLoad_Module_Base : Ares_Module_Base
 	{
 		subCategory = "Save/Load";
@@ -114,7 +114,7 @@ class CfgVehicles
 	{
 		category = "Curator";
 		subCategory = "";
-		
+
 		mapSize = 0;
 		displayName = "Ares Module Empty";
 		//icon = "";
@@ -128,7 +128,7 @@ class CfgVehicles
 	#include "cfgVehiclesModulesReinforcements.hpp"
 	#include "cfgVehiclesModulesUtil.hpp"
 	#include "cfgVehiclesModulesUserDefined.hpp"
-	
+
 	#include "cfgVehiclesSortingOVerrides.hpp"
 };
 
